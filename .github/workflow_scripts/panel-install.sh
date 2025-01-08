@@ -29,7 +29,7 @@ set -e
 ######################################################################################
 
 export GITHUB_SOURCE="master"
-export GITHUB_BASE_URL="https://raw.githubusercontent.com/TheExtr1m/pterodactyl-installer"
+export GITHUB_BASE_URL="https://raw.githubusercontent.com/theextr1m/pterodactyl-installer"
 export email="test@test.com"
 export user_email="test@test.com"
 export user_username="test"
