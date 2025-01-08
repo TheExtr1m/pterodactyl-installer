@@ -262,7 +262,7 @@ debian_dep() {
 
   # Install PHP 8.3 using sury's repo
   curl -o /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
-  echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | tee /etc/apt/sources.list.d/php.list
+  echo "deb https://debian.octopuce.fr/sury-php/ $(lsb_release -sc) main" | tee /etc/apt/sources.list.d/php.list
 }
 
 alma_rocky_dep() {
